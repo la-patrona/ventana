@@ -19,7 +19,7 @@ export const MainPage = () => {
             {/* Imagen selecionada, expandida */}
             { imageSelected ? <ImageFullScreen closeModal={ handleClose } imageSelected={imageSelected} /> : ""  }
 
-            <header className='bg-red-800 pt-10 pb-20 px-7'>
+            <header className='bg-[#E3BF0E] pt-10 pb-20 px-7'>
                 {/* Título, descripción y botón de whatsapp */}
                 <InfoBussiness />
             </header>

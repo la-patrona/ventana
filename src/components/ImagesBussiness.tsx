@@ -6,6 +6,7 @@ export const ImagesBussiness = ( { setImage } : { setImage: (value:string) => vo
         "menu1.jpeg",
         "menu2.jpeg",
         "menu3.jpeg",
+        "menu4.jpeg",
     ]
 
     return (
